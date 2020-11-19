@@ -2,13 +2,13 @@
 ### server: verify acess token and offer resource
 ### authServer: log in, token(update access token with refresh token), log out
 
-**acess token: short lifetime (short: for safe reason)
+**acess token: short lifetime (short: for safe reason)**
 
-***even acess token is steal by hacker, hacker can only access server in short period
+***even acess token is steal by hacker, hacker can only access server in short period***
 
-**refresh token: long lifetime
+**refresh token: long lifetime**
 
-***when acess token expired, use refresh token to update access token
+***when acess token expired, use refresh token to update access token***
 
 authServer /login get acess token and refresh token
 
