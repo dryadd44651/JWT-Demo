@@ -31,6 +31,7 @@ several operations...
 
 authServer /logout remove refresh token from list
 ```
+https://jwt.io/
 ### token contain: header, payload,Verify Signature
 > header: type(JWT), encode alg(HS256)
 > payload: data(username), iat(issue at when),exp(expire time)
