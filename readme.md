@@ -40,7 +40,7 @@ authServer /logout remove refresh token from list
 > goal: make token invail, or hacker can use this token to access server.
 > How to make a token invail, before it expired?
 
-
+### solution
 1. white list: only the refresh token in the list can access (authServer)
 2. black list: the token only the list will be blocked
 3. front end: clear token when log out.
