@@ -9,7 +9,7 @@
 **refresh token**: long lifetime
 
 *when acess token expired, use refresh token to update access token*
-
+```
 authServer /login get acess token and refresh token
 
 server /posts get data from server
@@ -30,7 +30,7 @@ authServer /login get acess token and refresh token again
 several operations...
 
 authServer /logout remove refresh token from list
-
+```
 ### token contain: header, payload,Verify Signature
 > header: type(JWT), encode alg(HS256)
 > payload: data(username), iat(issue at when),exp(expire time)
