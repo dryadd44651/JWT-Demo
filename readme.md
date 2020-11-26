@@ -3,7 +3,8 @@
 ### authServer: log in, token(update access token with refresh token), log out
 
 **.env**:  require('crypto').randomBytes(64).toString('hex') create key
-
+> REFRESH_TOKEN_SECRET: random 64 Bytes key
+> ACCESS_TOKEN_SECRET: random 64 Bytes key
 **acess token**: short lifetime (short: for safe reason)
 
 *even acess token is steal by hacker, hacker can only access server in short period*
