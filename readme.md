@@ -2,6 +2,8 @@
 ### server: verify acess token and offer resource
 ### authServer: log in, token(update access token with refresh token), log out
 
+**.env**:  require('crypto').randomBytes(64).toString('hex') create key
+
 **acess token**: short lifetime (short: for safe reason)
 
 *even acess token is steal by hacker, hacker can only access server in short period*
